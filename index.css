@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.831);
+}
+.background {
+  height: 99.4222vh;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.headernav {
+  width: 50%;
+  margin-top: 20px;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(240, 259, 52, 90);
+}
+
+.nav {
+  margin-left: 5%;
+  font-size: 15px;
+  list-style-type: none;
+  color: black;
+  font-family: "Press Start 2P";
+}
+.nav:first-child {
+  margin-left: 0;
+}
+.navbtn {
+  color: black;
+  font-family: "Press Start 2P";
+  text-decoration: none;
+}
+.cyberpunk {
+  color: rgba(253, 249, 7, 0.968);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 125px;
+  font-family: "Press Start 2P";
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 989px) {
+  .headernav {
+    width: 70%;
+  }
+}
+@media (max-width: 800) {
+  .headernav {
+    width: 100%;
+  }
+  .nav {
+    font-size: 8px;
+  }
+}
