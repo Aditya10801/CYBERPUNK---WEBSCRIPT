@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
 *,
 *::before,
 *::after {
@@ -6,7 +8,7 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.831);
+  background-color: #181818;
 }
 .background {
   height: 99.4222vh;
@@ -15,9 +17,12 @@ body {
   top: 0;
   left: 0;
   object-fit: cover;
+  filter: brightness(40%);
 }
 
+
 .headernav {
+
   width: 50%;
   margin-top: 20px;
   height: max-content;
@@ -55,7 +60,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 125px;
-  font-family: "Press Start 2P";
+  font-family: 'Monoton', cursive;
   width: 100%;
   text-align: center;
 }
